@@ -9,4 +9,8 @@
 
     ADMIN_LOGIN: "/admin/login",
     ADMIN_SIGNUP: "/admin/signup",
+
+    SEARCH: "/search",
+    RESERVE: "/reserve",
+    PROFILE: "/profile",
     };

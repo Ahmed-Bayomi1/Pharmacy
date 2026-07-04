@@ -1,0 +1,114 @@
+    :root {
+    --pc-blue: #2e5cff;
+    --pc-blue-light: #edf1ff;
+    --pc-text: #1f2a44;
+    --pc-muted: #6b7a99;
+    }
+
+    .pc-navbar {
+    background: #fff;
+    border-bottom: 1px solid #edeff3;
+    padding: 0.85rem 1.5rem;
+    }
+
+    .pc-back-btn {
+    color: var(--pc-muted);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    }
+    .pc-back-btn:hover {
+    color: var(--pc-text);
+    }
+
+    .pc-logo-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--pc-blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 0.6rem;
+    }
+
+    .pc-brand {
+    font-weight: 700;
+    color: var(--pc-text);
+    font-size: 1.15rem;
+    }
+
+    .pc-toggle-icon {
+    color: var(--pc-text);
+    }
+
+    .pc-nav-link {
+    color: var(--pc-muted) !important;
+    font-weight: 500;
+    padding: 0.55rem 0.9rem !important;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: 0.15s ease;
+    }
+    .pc-nav-link:hover {
+    color: var(--pc-text) !important;
+    background: #f5f7fb;
+    }
+    .pc-nav-link.active {
+    color: var(--pc-blue) !important;
+    background: var(--pc-blue-light);
+    }
+
+    .pc-icon-btn {
+    position: relative;
+    color: var(--pc-muted);
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    }
+    .pc-icon-btn:hover {
+    color: var(--pc-text);
+    }
+    .pc-dot {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    background: #ff4d4d;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    }
+
+    .pc-signout {
+    color: var(--pc-muted) !important;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    }
+    .pc-signout:hover {
+    color: var(--pc-text) !important;
+    }
+
+    @media (max-width: 991.98px) {
+    .pc-nav-link {
+        padding: 0.6rem 1rem !important;
+    }
+    .pc-navbar-collapse-wrap {
+        padding-top: 0.75rem;
+        border-top: 1px solid #edeff3;
+        margin-top: 0.75rem;
+    }
+    .pc-right-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+    }
+    }
